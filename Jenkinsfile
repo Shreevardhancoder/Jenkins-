@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building the project...'
-                    sh 'g++ -o YOUR_PES2UG22CS537-1 program.cpp' // Replace 'program.cpp' with your actual file name
+                    sh 'g++ -o YOUR_PES2UG22CS530-1 program.cpp' // Replace 'program.cpp' with your actual file name
                 }
             }
         }
@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     echo 'Running tests...'
-                    sh './YOUR_PES2UG22CS537-1' // Running the compiled C++ executable
+                    sh './YOUR_PES2UG22CS530-1' // Running the compiled C++ executable
                 }
             }
         }
